@@ -5,6 +5,9 @@
   "main": "./dist/index.es.js",
   "unpkg": "./dist/any-wheel.umd.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c"
@@ -27,6 +30,7 @@
   },
   "homepage": "https://github.com/any86/any-wheel#readme",
   "dependencies": {
+    "@changesets/cli": "^2.19.0",
     "rollup": "^2.62.0",
     "rollup-plugin-typescript2": "^0.31.1",
     "tslib": "^2.3.1",

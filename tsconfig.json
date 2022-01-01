@@ -18,7 +18,7 @@
         // 将以"import {__extends} from 'tslib'的形式导入
         "importHelpers": true,
         // 删除注释
-        "removeComments": true,
+        "removeComments": false,
         // 保留 const和 enum声明
         "preserveConstEnums": false,
         // 生成sourceMap
