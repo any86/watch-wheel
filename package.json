@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "dev": "rollup -c -w",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "release":"npm run build && npm pub"
   },
   "repository": {
     "type": "git",
