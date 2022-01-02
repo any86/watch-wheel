@@ -1,6 +1,6 @@
 {
   "name": "watch-wheel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "增加鼠标滚轮事件的语义",
   "main": "./dist/index.es.js",
   "unpkg": "./dist/watch-wheel.umd.js",
@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
-    "release": "npm run build && npm pub"
+    "release": "npm run build && changeset && changeset version &&  npm pub"
   },
   "repository": {
     "type": "git",
