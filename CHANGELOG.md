@@ -1,5 +1,11 @@
 # watch-wheel
 
+## 1.0.0
+
+### Major Changes
+
+-   第一版
+
 ## 0.0.3
 
 ### Patch Changes
