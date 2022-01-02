@@ -12,18 +12,18 @@ export default {
     output: [{
         // globals: { 'any-scroll': 'AnyTouch',raf:'raf' },
         format: 'umd',
-        name: 'AnyWheel',
-        file: `./dist/any-wheel.umd.js`,
+        name: 'watchWheel',
+        file: `./dist/watch-wheel.umd.js`,
         sourcemap: false,
     },{
         format: 'es',
-        name: 'AnyWheel',
+        name: 'watchWheel',
         file: `./dist/index.es.js`,
         sourcemap: false,
     },{
         format: 'cjs',
         exports:'default',
-        name: 'AnyWheel',
+        name: 'watchWheel',
         file: `./dist/indes.cjs.js`,
         sourcemap: false,
     }]

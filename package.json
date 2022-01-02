@@ -1,9 +1,9 @@
 {
-  "name": "any-wheel",
-  "version": "0.0.1",
+  "name": "watch-wheel",
+  "version": "0.0.2",
   "description": "增加鼠标滚轮事件的语义",
   "main": "./dist/index.es.js",
-  "unpkg": "./dist/any-wheel.umd.js",
+  "unpkg": "./dist/watch-wheel.umd.js",
   "types": "./dist/index.d.ts",
   "files": [
     "./dist"
@@ -11,11 +11,11 @@
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
-    "release":"npm run build && npm pub"
+    "release": "npm run build && npm pub"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/any86/any-wheel.git"
+    "url": "git+https://github.com/any86/watch-wheel.git"
   },
   "keywords": [
     "mousewheel",
@@ -27,9 +27,9 @@
   "author": "any86",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/any86/any-wheel/issues"
+    "url": "https://github.com/any86/watch-wheel/issues"
   },
-  "homepage": "https://github.com/any86/any-wheel#readme",
+  "homepage": "https://github.com/any86/watch-wheel#readme",
   "dependencies": {
     "@changesets/cli": "^2.19.0",
     "rollup": "^2.62.0",
