@@ -30,7 +30,7 @@
     "url": "https://github.com/any86/watch-wheel/issues"
   },
   "homepage": "https://github.com/any86/watch-wheel#readme",
-  "dependencies": {
+  "devDependencies": {
     "@changesets/cli": "^2.19.0",
     "rollup": "^2.62.0",
     "rollup-plugin-typescript2": "^0.31.1",
